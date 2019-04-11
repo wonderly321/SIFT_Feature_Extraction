@@ -32,9 +32,10 @@
    经过以上步骤，对于每一个关键点，拥有三个信息：位置、尺度以及方向。接下来就是为每个关键点建立描述符，使其不随各种变化而变化，比如光照变化、视角变化等等。并且描述符应该有较高的独特性，以便于提高关键点正确匹配的概率。  
 
    ​	（1）首先将坐标旋转为关键点的方向，以保证旋转不变形。
+   
    ​	（2）接下来以关键点为中心取8×8的窗口。
-
-   ![1554969618907](E:\course\Spring\CV\阅读与编程作业\cv-姓名\SIFT_v3\SIFT_v3\img\4_1.png)
+   
+<img src="https://github.com/wonderly321/SIFT_Feature_Extraction/blob/master/img/4_1.png" width="50%" />
 
    如上图中左部分的中央黑点为当前关键点的位置，每个小格代表关键点邻域所在尺度空间的一个像素，箭头方向代表该像素的梯度方向，箭头长度代表梯度模值，图中蓝色的圈代表高斯加权的范围（越靠近关键点的像素梯度方向信息贡献越大）。
 
@@ -58,17 +59,16 @@ Windows 系统/OS系统 	VS2013及以上版本 	C语言
 
 输入图片：
 
-![](E:\course\Spring\CV\阅读与编程作业\cv-姓名\SIFT_v3\SIFT_v3\img\test1.bmp)
+<img src="https://github.com/wonderly321/SIFT_Feature_Extraction/blob/master/img/test1.bmp" width="50%" />
 
-![](E:\course\Spring\CV\阅读与编程作业\cv-姓名\SIFT_v3\SIFT_v3\img\test2.bmp)
-
+<img src="https://github.com/wonderly321/SIFT_Feature_Extraction/blob/master/img/test2.bmp" width="50%" />
 
 
 输出结果：
 
-![](E:\course\Spring\CV\阅读与编程作业\cv-姓名\SIFT_v3\SIFT_v3\SIFT_v3\A_B_matching.bmp)
+<img src="https://github.com/wonderly321/SIFT_Feature_Extraction/blob/master/SIFT_v3/A_B_matching.bmp" width="50%" />
 
-![A_keypoints](E:\course\Spring\CV\阅读与编程作业\cv-姓名\SIFT_v3\SIFT_v3\SIFT_v3\A_keypoints.bmp)
+<img src="https://github.com/wonderly321/SIFT_Feature_Extraction/blob/master/SIFT_v3/A_keypoints.bmp" width="50%" />
 
-![B_keypoints](E:\course\Spring\CV\阅读与编程作业\cv-姓名\SIFT_v3\SIFT_v3\SIFT_v3\B_keypoints.bmp)
+<img src="https://github.com/wonderly321/SIFT_Feature_Extraction/blob/master/SIFT_v3/B_keypoints.bmp" width="50%" />
 
