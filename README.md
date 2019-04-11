@@ -59,16 +59,12 @@ Windows 系统/OS系统 	VS2013及以上版本 	C语言
 
 输入图片：
 
-<img src="https://github.com/wonderly321/SIFT_Feature_Extraction/blob/master/img/test1.bmp" width="50%" />
-
-<img src="https://github.com/wonderly321/SIFT_Feature_Extraction/blob/master/img/test2.bmp" width="50%" />
+<img src="https://github.com/wonderly321/SIFT_Feature_Extraction/blob/master/img/test1.bmp" width="40%" /><img src="https://github.com/wonderly321/SIFT_Feature_Extraction/blob/master/img/test2.bmp" width="40%" />
 
 
 输出结果：
 
-<img src="https://github.com/wonderly321/SIFT_Feature_Extraction/blob/master/SIFT_v3/A_B_matching.bmp" width="50%" />
+<img src="https://github.com/wonderly321/SIFT_Feature_Extraction/blob/master/SIFT_v3/A_B_matching.bmp" width="80%" />
 
-<img src="https://github.com/wonderly321/SIFT_Feature_Extraction/blob/master/SIFT_v3/A_keypoints.bmp" width="50%" />
-
-<img src="https://github.com/wonderly321/SIFT_Feature_Extraction/blob/master/SIFT_v3/B_keypoints.bmp" width="50%" />
+<img src="https://github.com/wonderly321/SIFT_Feature_Extraction/blob/master/SIFT_v3/A_keypoints.bmp" width="40%" /><img src="https://github.com/wonderly321/SIFT_Feature_Extraction/blob/master/SIFT_v3/B_keypoints.bmp" width="40%" />
 
